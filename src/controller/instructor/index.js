@@ -4,7 +4,7 @@ const InstructorController = {
             message:"this is get all api"
         })
     },
-    getone: (req, res) => {
+    getOne: (req, res) => {
         req, res({
             message:"this is onne api"
         })
