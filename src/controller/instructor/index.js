@@ -1,5 +1,5 @@
-const Instructor = {
-    getall: (req, res) => { 
+const InstructorController = {
+    getAll: (req, res) => { 
         res.json({
             message:"this is get all api"
         })
@@ -11,4 +11,4 @@ const Instructor = {
     }
 }
 
-export default Instructor
+export default InstructorController;
