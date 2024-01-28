@@ -2,9 +2,10 @@ import Express from "express";
 import InstructorController from "./controller/instructor/index.js";
 import instructorRouter from "./router/instructor/index.js";
 import AllRouter from "./router/index.js";
+import { ConnectDb } from "./db/config.js";
 
 const app = Express();
-// app.get("/instructor", InstructorController.getall);
+ConnectDb(); // This is db connection path
 
 app.use(AllRouter);
 
